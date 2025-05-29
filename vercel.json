@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "regions": ["fra1"],
+  "github": {
+    "silent": true
+  },
+  "buildCommand": "next build",
+  "outputDirectory": ".next"
+} 

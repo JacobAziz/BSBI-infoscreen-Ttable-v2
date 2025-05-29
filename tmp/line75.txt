@@ -1,0 +1,1 @@
+          tableHeader.style.paddingTop = '8px';
