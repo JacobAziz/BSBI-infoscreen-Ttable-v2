@@ -98,7 +98,21 @@ npm run build
 
 ## Deployment
 
-This project is optimized for Vercel deployment. Simply push to your GitHub repository and connect it to Vercel for automatic deployments.
+This project is optimized for Vercel deployment on the free tier with a single region configuration (Frankfurt - fra1).
+
+### Deployment Steps
+
+1. Push your code to GitHub
+2. Connect your GitHub repository to Vercel
+3. During setup, ensure the following settings:
+   - Framework Preset: Next.js
+   - Build Command: `next build` (default)
+   - Output Directory: `.next` (default)
+   - Install Command: `npm install` (default)
+
+### Region Configuration
+
+This project is configured to deploy to a single region (Frankfurt - fra1) as specified in the `vercel.json` file, which is optimal for the Vercel free tier.
 
 ### Environment Variables
 
