@@ -5,5 +5,7 @@
     "silent": true
   },
   "buildCommand": "next build",
-  "outputDirectory": ".next"
+  "outputDirectory": ".next",
+  "public": false,
+  "cleanUrls": true
 } 
